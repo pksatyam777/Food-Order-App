@@ -2,13 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import About from './About';
+import About from './Components/Body/About';
 import { RouterProvider,createBrowserRouter } from 'react-router-dom';
 import Error from './Error';
-import Contact from './contact';
-import Cart from './Cart';
-import Body from './Body';
-import RestaurantDetail from './RestaurantDetail';
+import Contact from './Components/Body/contact';
+import Body from './Components/Body/Body';
+import RestaurantDetail from './Components/Body/RestaurantDetail';
+import Cart from './Components/Body/Cart';
+import Login from './Components/Auth/Login';
+import Signup from './Components/Auth/Signup';
 const AppRouter=createBrowserRouter([
 
   {
@@ -36,6 +38,14 @@ const AppRouter=createBrowserRouter([
         path: "/restaurant/:id",
         element: <RestaurantDetail/>,
       },
+      {
+        path: "/login",
+        element: <Login />,
+      },
+      {
+        path: "/signup",
+        element: <Signup />,
+      }
     ]
   },
   

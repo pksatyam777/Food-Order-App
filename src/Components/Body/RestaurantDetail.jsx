@@ -1,16 +1,28 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import { IMG_CDN_URL } from './constant';
-import Shimmer from './Shimmer';
-
+import { IMG_CDN_URL } from '../../Utils/constant';
+import Shimmer from '../../Shimmer';
+import { addItem , removeItem , clearCart } from '../../Utils/CartSlice';
+import { useDispatch } from 'react-redux';
 function RestaurantDetail() {
     const params=useParams();
     const {id}=params
+    
     const [resDetail,setResDetail]=useState({menu:{
         items:{
             1:"first"
         }
     }})
+    const dispatch= useDispatch()
+    const handleAddItem=(item)=>{
+        dispatch(addItem(item))
+    }
+    const handleRemoveItem=(item)=>{
+        dispatch(removeItem(item))
+    }
+    const handleCount=(countItem)=>{
+        
+    }
     useEffect(()=>{
         getRestaurantInfo()
     },[])
@@ -28,10 +40,10 @@ return !resDetail ?
     ):
         
     
-  (<div>
-    <div><h1>RestaurantDetil {id}</h1>
+  (<div className='flex'>
+    <div className=''><h1>RestaurantDetil {id}</h1>
     <h2>{resDetail.name}</h2>
-    <img alt="restaurant-detail" src={ IMG_CDN_URL+resDetail.cloudinaryImageId}></img>
+    <img className='rounded w-96' alt="restaurant-detail" src={ IMG_CDN_URL+resDetail.cloudinaryImageId}></img>
     <h3>{resDetail.area}</h3>
     <h3>{resDetail.city}</h3>
     <h3>{resDetail.avgRating} Stars</h3>
@@ -45,6 +57,8 @@ return !resDetail ?
         {Object.values(resDetail.menu.items).map((item)=>(
             <li key={item.id}>
                 {item.name}
+                <button onClick={()=>handleAddItem(item)} className='p-2 m-2 bg-green-400 rounded-md'>+</button>
+                <button onClick={handleRemoveItem(item)} className='p-2 m-2 bg-green-400 rounded-md'>-</button>
             </li>
         ))}
         
