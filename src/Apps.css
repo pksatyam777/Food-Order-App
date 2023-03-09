@@ -1,0 +1,42 @@
+/* 
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    border : 1px solid black;
+    align-items: center;
+}
+.nav-items > ul{
+    list-style-type: none;
+    display: flex;
+    margin-right: 10px;
+}
+
+.nav-items > ul > li{
+    padding: 10px;
+
+}
+.logo{
+    width: 100px;
+}
+.card{
+    width:200px;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    
+}
+.card > img{
+    width: 100%;
+}
+.restaurant-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.shimmer-card{
+    width: 200px;
+    height: 200px;
+    background: whitesmoke;
+    margin: 20px;
+} */
