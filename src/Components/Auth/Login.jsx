@@ -23,7 +23,7 @@ const Login = () => {
       });
   };
   return (
-    <section class="bg-gray-50 dark:bg-gray-900">
+    <section class="bg-gray-50 h-screen sm: py-32 lg:py-1 xl:py-1 dark:bg-gray-900">
       <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
         <a
           href="#"

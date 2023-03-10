@@ -57,6 +57,9 @@ import { AiOutlineShoppingCart } from 'react-icons/ai';
 import {FaCircle} from 'react-icons/fa'
 import firebase from 'firebase/compat';
 import { useSelector } from 'react-redux';
+import logo from "../../../public/logo.svg"
+
+
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
@@ -71,7 +74,7 @@ export default function Header() {
     { name: 'Home', href: '/', current: url.pathname=="/"?true:false },
     { name: 'About', href: '/about', current: url.pathname=="/about"?true:false },
     { name: 'Contact', href: '/contact', current: url.pathname=="/contact"?true:false },
-    { name: '', href: '/cart', current: url.pathname=="/cart"?true:false , icon: <><AiOutlineShoppingCart style={{display:"inline"}} size={20} />{CartItems.length}</>},
+    { name: '', href: '/cart', current: url.pathname=="/cart"?true:false , icon: <><AiOutlineShoppingCart style={{display:"inline"}} size={20} />{CartItems.length==0?null:CartItems.length}</>},
   ]
   
 
@@ -100,9 +103,9 @@ export default function Header() {
         console.error(error);
       });
     }
-  
+    // fixed top-0 w-full z-10
   return (
-    <Disclosure as="nav" className="bg-gray-800 fixed top-0 w-full z-10">
+    <Disclosure as="nav" className="bg-gray-800">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-[86rem] px-2 sm:px-6 lg:px-8">
@@ -121,13 +124,8 @@ export default function Header() {
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex flex-shrink-0 items-center">
                   <img
-                    className="block h-8 w-auto lg:hidden"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-                    alt="Your Company"
-                  />
-                  <img
-                    className="hidden h-8 w-auto lg:block"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                    className=" h-8 w-auto lg:block"
+                    src={logo}
                     alt="Your Company"
                   />
                 </div>

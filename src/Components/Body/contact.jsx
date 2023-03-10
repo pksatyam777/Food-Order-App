@@ -1,7 +1,8 @@
 import React from "react";
 const Contact = () => {
   return (
-    <div class="isolate bg-white py-24 px-6 sm:py-32 lg:px-8">
+    <div class="isolate bg-white py-24 px-6 sm:py-10 lg:px-8">
+      
       <div class="mx-auto max-w-2xl text-center">
         <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
           Contact us
@@ -10,6 +11,7 @@ const Contact = () => {
           We would love to respond to your queries and help you succeed .<br /> feel free to get in touch with us.
         </p>
       </div>
+      
       <form action="#" method="POST" class="mx-auto mt-16 max-w-xl sm:mt-20">
         <div class="grid grid-cols-1 gap-y-6 gap-x-8 sm:grid-cols-2">
           <div>
