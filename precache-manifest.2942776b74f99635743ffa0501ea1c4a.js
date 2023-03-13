@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "5ae197f2a262297a7e79",
+    "revision": "3795255ddc1e7a1fb7f2",
     "url": "/pksatyam777/Food-Order-App/static/css/main.862223a2.chunk.css"
   },
   {
-    "revision": "5ae197f2a262297a7e79",
-    "url": "/pksatyam777/Food-Order-App/static/js/main.5ae197f2.chunk.js"
+    "revision": "3795255ddc1e7a1fb7f2",
+    "url": "/pksatyam777/Food-Order-App/static/js/main.3795255d.chunk.js"
   },
   {
     "revision": "330c678f2193ea1e5f8d",
@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/pksatyam777/Food-Order-App/static/media/logo.757cf8a3.svg"
   },
   {
-    "revision": "ebccea19eb5cf238cd740d113ef59f27",
+    "revision": "99bcb68eb4bf050ab79ea26b8811416a",
     "url": "/pksatyam777/Food-Order-App/index.html"
   }
 ];
