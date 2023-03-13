@@ -57,7 +57,7 @@ import { AiOutlineShoppingCart } from 'react-icons/ai';
 import {FaCircle} from 'react-icons/fa'
 import firebase from 'firebase/compat';
 import { useSelector } from 'react-redux';
-import logo from "../../../public/logo.svg"
+import logo from "../../Asserts/logo.svg"
 
 
 function classNames(...classes) {

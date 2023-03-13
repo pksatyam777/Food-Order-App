@@ -5,7 +5,7 @@ import Shimmer from "../../Shimmer";
 import { Link } from "react-router-dom";
 import useOnline from "../../Utils/useOnline";
 import Typewriter from "typewriter-effect";
-import foodcover from "../../../public/food-cover.jpg";
+import foodcover from "../../Asserts/food-cover.jpg"
 function Body() {
   const [input, setInput] = useState("");
   const [allRestaurant, setAllRestaurant] = useState([]);
@@ -70,7 +70,7 @@ function Body() {
               <input
                 onKeyDown={(e) => onKeyPress(e)}
                 type="text"
-                class="h-14 w-96 pl-10 pr-20 rounded-lg z-0 focus:shadow focus:outline-none"
+                class="h-14 lg:w-96 sm:w-44 pl-10 pr-20 rounded-lg z-0 focus:shadow focus:outline-none"
                 placeholder="Search anything..."
                 onChange={(e) => setInput(e.target.value)}
                 value={input}
