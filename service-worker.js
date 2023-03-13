@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/pksatyam777/Food-Order-App/precache-manifest.2942776b74f99635743ffa0501ea1c4a.js"
+  "/Food-Order-App/precache-manifest.448bdeea889d2b1ffdfe392b74516868.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/pksatyam777/Food-Order-App/index.html", {
+workbox.routing.registerNavigationRoute("/Food-Order-App/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });

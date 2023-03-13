@@ -1,15 +1,15 @@
 {
-  "main.css": "/pksatyam777/Food-Order-App/static/css/main.862223a2.chunk.css",
-  "main.js": "/pksatyam777/Food-Order-App/static/js/main.3795255d.chunk.js",
-  "main.js.map": "/pksatyam777/Food-Order-App/static/js/main.3795255d.chunk.js.map",
-  "static/js/1.330c678f.chunk.js": "/pksatyam777/Food-Order-App/static/js/1.330c678f.chunk.js",
-  "static/js/1.330c678f.chunk.js.map": "/pksatyam777/Food-Order-App/static/js/1.330c678f.chunk.js.map",
-  "runtime~main.js": "/pksatyam777/Food-Order-App/static/js/runtime~main.55b77022.js",
-  "runtime~main.js.map": "/pksatyam777/Food-Order-App/static/js/runtime~main.55b77022.js.map",
-  "static/media/food-cover.jpg": "/pksatyam777/Food-Order-App/static/media/food-cover.7ebd6123.jpg",
-  "static/media/logo.svg": "/pksatyam777/Food-Order-App/static/media/logo.757cf8a3.svg",
-  "static/css/main.862223a2.chunk.css.map": "/pksatyam777/Food-Order-App/static/css/main.862223a2.chunk.css.map",
-  "index.html": "/pksatyam777/Food-Order-App/index.html",
-  "precache-manifest.2942776b74f99635743ffa0501ea1c4a.js": "/pksatyam777/Food-Order-App/precache-manifest.2942776b74f99635743ffa0501ea1c4a.js",
-  "service-worker.js": "/pksatyam777/Food-Order-App/service-worker.js"
+  "main.css": "/Food-Order-App/static/css/main.862223a2.chunk.css",
+  "main.js": "/Food-Order-App/static/js/main.3795255d.chunk.js",
+  "main.js.map": "/Food-Order-App/static/js/main.3795255d.chunk.js.map",
+  "static/js/1.f2676bd2.chunk.js": "/Food-Order-App/static/js/1.f2676bd2.chunk.js",
+  "static/js/1.f2676bd2.chunk.js.map": "/Food-Order-App/static/js/1.f2676bd2.chunk.js.map",
+  "runtime~main.js": "/Food-Order-App/static/js/runtime~main.986dd73c.js",
+  "runtime~main.js.map": "/Food-Order-App/static/js/runtime~main.986dd73c.js.map",
+  "static/media/food-cover.jpg": "/Food-Order-App/static/media/food-cover.7ebd6123.jpg",
+  "static/media/logo.svg": "/Food-Order-App/static/media/logo.757cf8a3.svg",
+  "static/css/main.862223a2.chunk.css.map": "/Food-Order-App/static/css/main.862223a2.chunk.css.map",
+  "index.html": "/Food-Order-App/index.html",
+  "precache-manifest.448bdeea889d2b1ffdfe392b74516868.js": "/Food-Order-App/precache-manifest.448bdeea889d2b1ffdfe392b74516868.js",
+  "service-worker.js": "/Food-Order-App/service-worker.js"
 }
